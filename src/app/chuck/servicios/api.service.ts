@@ -7,8 +7,8 @@ import { Observable } from "rxjs"
   providedIn: 'root'
 })
 export class ApiService {
-  private frase: Frase = { value: "", icon_url: "", id: "", url: "" };
-  private ChuckUrl = "https://api.chucknorris.io/jokes/random";
+  private frase: Frase = { cli_id: "", cli_identificacion: "", cli_nombre: "", cli_apellido: "", cli_correo: "", cli_telefono: "", cli_tp_doc_id: "" };
+  private ChuckUrl = "https://localhost:7006";
 
   constructor(private http: HttpClient)  {}
   

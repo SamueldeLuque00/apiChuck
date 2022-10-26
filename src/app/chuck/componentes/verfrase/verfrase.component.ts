@@ -7,7 +7,7 @@ import { Frase } from '../../modelos/frase';
   styleUrls: ['./verfrase.component.css']
 })
 export class VerfraseComponent implements OnInit {
-  public frase: Frase = { value: "", icon_url: "", id: "", url: "" };
+  public frase: Frase = { cli_id: "", cli_identificacion: "", cli_nombre: "", cli_apellido: "", cli_correo: "", cli_telefono: "", cli_tp_doc_id: "" };
 
   constructor(private apiservice: ApiService) { }
 
